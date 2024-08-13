@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murali Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="icon.png">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Murali D</h1>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hi I'm Murali</h1>
+        <p>
+          I'm a frontend developer passionate about creating interactive and
+          responsive websites.
+        </p>
+        <div class="hero-buttons">
+          <Button><a href="#contact" class="btn-secondary">Contact Me</a></Button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+              Hello! I’m a passionate frontend developer with a knack for
+              creating interactive and visually appealing websites. With a
+              strong foundation in HTML, CSS, and JavaScript, I bring designs to
+              life and ensure they are responsive and user-friendly. I enjoy
+              learning new technologies and staying up-to-date with industry
+              trends.
+            </p>
+            <div class="skills">
+              <h3>Key Skills</h3>
+              <div class="skill-buttons">
+                <a href="#" class="skill-btn">HTML5</a>
+                <a href="#" class="skill-btn">CSS3</a>
+                <a href="#" class="skill-btn">JavaScript</a>
+                <a href="#" class="skill-btn">Bootstrap</a>
+                <a href="#" class="skill-btn">Responsive Design</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <h2>My Skills</h2>
+        <div class="skill">
+          <h3>HTML5</h3>
+          <div class="progress-bar">
+            <div class="progress html">90%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>CSS3</h3>
+          <div class="progress-bar">
+            <div class="progress css">85%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress js">80%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Bootstrap</h3>
+          <div class="progress-bar">
+            <div class="progress bootstrap">70%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Responsive Design</h3>
+          <div class="progress-bar">
+            <div class="progress responsive">85%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <div class="info-item">
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:muralidv101203@gmail.com"
+                >muralidv101203@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="info-item">
+            <h3>Phone</h3>
+            <p><a href="tel:+91 9360802394">9360802394</a></p>
+          </div>
+          <div class="info-item">
+            <h3>Karnataka</h3>
+            <h3>Bangalore, India</h3>
+          </div>
+        </div>
+        <form
+          class="contact-form"
+          action="mailto:muralidv101203@gmail.com"
+          method="post"
+          enctype="text/plain">
+          <h3>Send a Message</h3>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-content">
+              <div class="social-media">
+                  <a href="https://www.facebook.com/profile.php?id=100073796770325" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.linkedin.com/in/murali-d-41ab40281/" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://github.com/Muralidhasarathan" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://wa.me/+919360802394" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                  <a href="https://www.instagram.com/maximus._32/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+              <nav class="footer-nav">
+                  <a href="#about">About</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#contact">Contact</a>
+              </nav>
+              <p>&copy; 2024 Murali. All Rights Reserved.</p>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
